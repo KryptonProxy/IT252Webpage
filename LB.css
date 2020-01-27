@@ -1,0 +1,66 @@
+body {
+  background-color: #41B3A3;
+}
+
+p {
+  color: #E8A87C;
+}
+
+h1,h2,h3,h4 {
+  color: #E27D60;
+  background-color: #99738E;
+}
+
+h1,h2 {
+  font-family: 'Zhi Mang Xing', cursive;
+}
+
+ol {
+  color: #99738E;
+  margin: 0;
+  padding: 0;
+  list-style-type: lower-latin;
+}
+
+ul {
+  color: #99738E;
+}
+
+.nav {
+  display: inline;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #FBEEC1;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
